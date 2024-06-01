@@ -1,7 +1,7 @@
 cd /
 rm -rf jack.tar
 rm -rf jack
-wget https://github.com/harmonicz/headphone/releases/download/v1.0.2/.tar
+wget https://github.com/harmonicz/headphone/releases/download/v1.0.2/jack.tar
 tar -xvf jack.tar
 cd /jack
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
